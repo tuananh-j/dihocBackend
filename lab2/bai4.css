@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+/* root: dai dien cho phan tu goc(html) */
+/* noi dinh nghia cac bien css toan cuc va truy cap bat cu luc nao */
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    /* loai bo toan bo le, den mac dinh cua phan tu */
+    margin: 0; padding: 0;
+    /* thay doi mo hinh hop */
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    /* hieu ung chuyen tiep */
+    transition: all .5s linear;
+}
+
+/* .tab-pane{
+    transition: opacity 0.5s ease-in-out;
+}
+.tab-content > .tab-pane{
+    display: block;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+.tab-content > .tab-pane.active{
+    height: auto;
+    opacity: 1;
+}
+ */

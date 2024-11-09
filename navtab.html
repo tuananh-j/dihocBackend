@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!--  -->
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-dangky-tab" data-bs-toggle="tab" data-bs-target="#nav-dangky" type="button" role="tab" aria-controls="nav-dangky" aria-selected="true">đăng ký</button>
+            <button class="nav-link" id="nav-dangnhap-tab" data-bs-toggle="tab" data-bs-target="#nav-dangnhap" type="button" role="tab" aria-controls="nav-dangnhap" aria-selected="false">đăng nhập</button>
+        </div>
+        </nav>
+        <!--  -->
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-dangky" role="tabpanel" aria-labelledby="nav-dangky-tab">
+            <h5 class="text-info">
+                Form Đăng Ký Thông Tin
+            </h5>
+            <form action="" class="form-control">
+                <!-- hoten -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Họ và tên
+                    </label>
+                    <input type="text" class="form-control" placeholder="Nhập họ và tên">
+                </div>
+    
+                <!-- email -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Email
+                    </label>
+                    <input type="text" class="form-control" placeholder="Nhập email">
+                </div>
+    
+                <!-- sodienthoai -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Số Điện Thoại
+                    </label>
+                    <input type="text" class="form-control" placeholder="Nhập số điện thoại">
+                </div>
+    
+                <!-- mat khau -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Mật Khẩu
+                    </label>
+                    <input type="text" class="form-control" placeholder="Nhập mật khẩu">
+                </div>
+    
+                <!-- xac nhan mat khau -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Xác Nhận Mật Khẩu
+                    </label>
+                    <input type="text" class="form-control" placeholder="Xác nhận mật khẩu">
+                </div>
+    
+                <!-- Gioi tinh -->
+                <div class="mb-3">
+                    <label for="" class="form-label">
+                        Giới Tính:
+                    </label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="gioitinh">
+                        <label for="" class="form-check-label">
+                            Nam
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline" >
+                        <input type="radio" class="form-check-input" name="gioitinh">
+                        <label for="" class="form-check-label">
+                            Nữ
+                        </label>
+                    </div>
+                </div>
+    
+                <!-- Ngon ngu -->
+                <div class="form-floating" class="mb-3">
+                    <select name="" id="select" class="form-select" name="sellist">
+                        <option value="tiengviet">
+                            Tiếng Việt
+                        </option>
+                        <option value="tienganh">
+                            Tiếng Anh
+                        </option>
+                        <option value="tiengtaybannha">
+                            Tiếng Tây Ban Nha
+                        </option>
+                    </select>
+                    <label for="select" class="form-label">
+                        Chọn một ngôn ngữ
+                    </label>
+                </div>
+    
+                <!-- dong y -->
+                <div class="mb-3">
+                    <input type="checkbox" class="form-check-input">
+                    <label for="" class="form-check-label">Tôi đồng ý với các điều khoản và điều kiện</label>
+                </div>
+    
+                <!-- nut dang ky -->
+                <div class="mb-3">
+                    <button class="btn btn-primary">
+                        Đăng Ký
+                    </button>
+                </div>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="nav-dangnhap" role="tabpanel" aria-labelledby="nav-dangnhap-tab">
+            <h5 class="text-info">Form Đăng nhập</h5>
+                            <form action="" class="form-control">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Email</label>
+                                    <input type="text" class="form-control" placeholder="Nhập email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Mật Khẩu</label>
+                                    <input type="text" class="form-control" placeholder="Nhập mật khẩu">
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn btn-primary">
+                                        Đăng Nhập
+                                    </button>
+                                </div>
+                            </form>
+          </div>
+        </div>
+    </div>
+    <nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
